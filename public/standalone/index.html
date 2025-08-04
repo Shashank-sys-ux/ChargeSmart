@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChargeSmart Bangalore - AI-Powered EV Charging Network</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="bg-grid"></div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                        </svg>
+                        AI-Powered EV Infrastructure
+                    </div>
+                    
+                    <h1 class="hero-title">ChargeSmart</h1>
+                    
+                    <p class="hero-description">
+                        India's smartest EV charging network powered by AI. Find stations, predict availability, and optimize your electric journey.
+                    </p>
+                    
+                    <button class="cta-button" onclick="showAuthModal()">
+                        Get Started
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12,5 19,12 12,19"></polyline>
+                        </svg>
+                    </button>
+                    
+                    <!-- Live Stats -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon stat-icon-green">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="stat-value">1,247</div>
+                            <div class="stat-label">Active Stations</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon stat-icon-blue">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <div class="stat-value">28.5K</div>
+                            <div class="stat-label">EV Users</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon stat-icon-emerald">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+                                </svg>
+                            </div>
+                            <div class="stat-value">342h</div>
+                            <div class="stat-label">Time Saved Daily</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why Choose ChargeSmart?</h2>
+                    <p class="section-description">
+                        Experience the future of electric vehicle charging with our intelligent platform
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect width="16" height="10" x="2" y="7" rx="2" ry="2"/>
+                                    <line x1="22" y1="11" x2="22" y2="13"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Smart Charging</h3>
+                        </div>
+                        <p class="feature-description">
+                            AI-powered station recommendations based on availability and your vehicle's needs
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Real-time Navigation</h3>
+                        </div>
+                        <p class="feature-description">
+                            Live traffic and station status updates for optimal route planning
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12,6 12,12 16,14"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Predictive Analytics</h3>
+                        </div>
+                        <p class="feature-description">
+                            Know before you go - predict wait times and station availability
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Secure & Reliable</h3>
+                        </div>
+                        <p class="feature-description">
+                            Safe transactions and trusted network of verified charging stations
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EV Types Section -->
+        <section class="ev-types-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Supporting All Electric Vehicles</h2>
+                    <p class="section-description">
+                        From cars to scooters, we've got you covered
+                    </p>
+                </div>
+
+                <div class="ev-types-grid">
+                    <div class="ev-type-card">
+                        <div class="ev-type-header">
+                            <div class="ev-type-icon ev-type-icon-blue">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9L18.4 9.9c-.3-.6-.9-1-1.5-1H15"/>
+                                    <path d="M11 17h2"/>
+                                    <path d="M5 17h6v-6H4v4c0 1.1.9 2 2 2z"/>
+                                    <circle cx="7" cy="17" r="2"/>
+                                    <circle cx="17" cy="17" r="2"/>
+                                </svg>
+                            </div>
+                            <h3 class="ev-type-title">Electric Cars</h3>
+                        </div>
+                        <p class="ev-type-description">Tata Nexon EV, MG ZS EV, Hyundai Kona & more</p>
+                    </div>
+
+                    <div class="ev-type-card">
+                        <div class="ev-type-header">
+                            <div class="ev-type-icon ev-type-icon-green">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+                                    <path d="M12 18h.01"/>
+                                </svg>
+                            </div>
+                            <h3 class="ev-type-title">Electric Scooters</h3>
+                        </div>
+                        <p class="ev-type-description">Ather 450X, Ola S1 Pro, TVS iQube & more</p>
+                    </div>
+
+                    <div class="ev-type-card">
+                        <div class="ev-type-header">
+                            <div class="ev-type-icon ev-type-icon-purple">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="18.5" cy="17.5" r="3.5"/>
+                                    <circle cx="5.5" cy="17.5" r="3.5"/>
+                                    <circle cx="15" cy="5" r="1"/>
+                                    <path d="M12 17.5V14l-3-3 4-3 2 3h2"/>
+                                </svg>
+                            </div>
+                            <h3 class="ev-type-title">Electric Bikes</h3>
+                        </div>
+                        <p class="ev-type-description">Hero Electric, Okinawa, Ampere & more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Auth Modal -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close-button" onclick="hideAuthModal()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <h2 id="modalTitle" class="modal-title">Welcome Back</h2>
+                <p id="modalDescription" class="modal-description">Sign in to your account</p>
+            </div>
+            <div class="modal-body">
+                <form id="authForm" class="auth-form">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required minlength="6">
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span id="submitText">Sign In</span>
+                    </button>
+                </form>
+                <div class="auth-toggle">
+                    <button id="toggleAuth" onclick="toggleAuthMode()">
+                        Don't have an account? Sign up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

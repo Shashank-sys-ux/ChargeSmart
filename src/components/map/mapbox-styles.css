@@ -1,0 +1,15 @@
+
+.minimal-popup .mapboxgl-popup-content {
+  padding: 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border: none;
+}
+
+.minimal-popup .mapboxgl-popup-tip {
+  border-top-color: white;
+}
+
+.minimal-popup .mapboxgl-popup-close-button {
+  display: none;
+}
